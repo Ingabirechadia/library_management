@@ -13,7 +13,10 @@ class LibraryTransaction(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from library_management.library_management.doctype.library_transaction_item.library_transaction_item import LibraryTransactionItem
+
+		from library_management.library_management.doctype.library_transaction_item.library_transaction_item import (
+			LibraryTransactionItem,
+		)
 
 		amended_from: DF.Link | None
 		due_date: DF.Date | None
