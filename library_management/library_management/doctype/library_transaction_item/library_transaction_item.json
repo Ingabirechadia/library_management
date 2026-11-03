@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-11-03 10:47:51.165506",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_dwwb",
+  "article",
+  "article_title"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_dwwb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Article",
+   "options": "Library Article",
+   "reqd": 1
+  },
+  {
+   "fieldname": "article_title",
+   "fieldtype": "Data",
+   "label": "Article Title",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-11-03 10:49:58.908088",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Transaction Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
